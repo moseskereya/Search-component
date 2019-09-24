@@ -1,0 +1,30 @@
+.AutoComplete{
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0,0,0, 1px rgba(0,0,0,1), 0, 2px 4px, 1px (rgba(0,0,0,.18));
+    margin: auto;
+    background: #e5657e;
+}
+.AutoComplete input{
+    width: 100%;
+    border: none;
+    height: 2rem;
+    font-size: 14px;
+    color: rgb(68, 61, 61);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 14px;
+    outline: none;
+}
+.AutoComplete ul{
+list-style-type:none;
+text-align: left;
+margin: 0;
+padding: 0;
+}
+.AutoComplete li{
+padding: 10px 5px;
+}
+/* .AutoComplete ul::before{
+
+} */
